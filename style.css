@@ -1,0 +1,58 @@
+*{
+    font-family: verdana;
+    margin: 0;
+}
+
+body{
+    background: #eee;
+}
+
+.wrapper{
+    width: 100%;
+    max-width: 960px;
+    margin: 0 auto;
+}
+
+.flex-container{
+    display: flex;
+    background: white;
+    flex-wrap: wrap; /* if the width becomes less then the box will be move downward */
+    /*flex-wrap: wrap-reverse;*/
+}
+
+
+.box{
+    height: 100px;
+    /*min-width: 320px;*/
+    /*min-width: 200px;*/
+    /*flex-grow: 1;*/
+    /* flex basis defines a starting width of each element */
+    /*flex-basis: 500px;*/
+    flex: 1 0 200px
+    /* flex: 1 */
+    
+    
+}
+
+.one{
+    background: red;
+    /*flex-grow: 1;*/
+    /*flex-shrink: 1;*/
+}
+
+.two{
+    background: blue;
+    /*flex-grow: 2;*/
+    /*flex-shrink: 2;*/
+}
+
+.three{
+    background: green;
+    /*flex-grow: 4;*/
+    /*flex-shrink: 3;*/
+}
+
+
+
+
+
